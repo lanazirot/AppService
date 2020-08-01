@@ -4,7 +4,7 @@
 
 ## Introduction :green_book:
 
-> AppServiceNLD was an app made for Nuevo Laredo, Tamaulipas' citizens looking for job or, not common services 
+> AppServiceNLD was an app made for Nuevo Laredo, Tamaulipas' citizens looking for job or, not common services. AppServiceNLD isn't working nowadays (API key was removed, for example)
 
 
 ## What AppService is able to do? :question: 
