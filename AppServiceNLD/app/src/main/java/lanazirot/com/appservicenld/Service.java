@@ -1,8 +1,6 @@
 package lanazirot.com.appservicenld;
 
-/**
- * Created by Alan on 25/05/2018.
- */
+
 
 public class Service {
 
