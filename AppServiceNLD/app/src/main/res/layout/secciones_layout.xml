@@ -1,0 +1,11 @@
+<TextView android:layout_width="match_parent"
+    android:id="@+id/item"
+    android:layout_margin="25dp"
+    android:textAlignment="center"
+    android:textSize="30dp"
+    android:gravity="center"
+    android:textColor="#fff"
+    android:text="ITEM"
+    android:background="@color/colorPrimary"
+    android:layout_height="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

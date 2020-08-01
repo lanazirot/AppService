@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AppServiceNLD</string>
+    <string-array name="tipouser">
+        <item>Tengo una empresa</item>
+        <item>Trabajo independiente</item>
+        <item>Servicio</item>
+    </string-array>
+
+    <string-array name="categorias">
+        <item>Administracion</item>
+        <item>Atencion al cliente</item>
+        <item>Abogados</item>
+        <item>Banco</item>
+        <item>Campo</item>
+        <item>Comercio</item>
+        <item>Cadenas</item>
+        <item>Doctores</item>
+        <item>Empresa</item>
+        <item>Herramientas</item>
+        <item>Internet</item>
+        <item>Informatica</item>
+        <item>Independiente</item>
+        <item>Hogar</item>
+        <item>Microempresa</item>
+        <item>Mecanicos</item>
+        <item>Juegos</item>
+        <item>Limpieza</item>
+        <item>Tienda online</item>
+        <item>Tienda fisica</item>
+        <item>Pintores</item>
+        <item>Reparaciones</item>
+        <item>Servicios de salud</item>
+        <item>Servicios generales</item>
+        <item>Servicios de gobierno</item>
+        <item>Servicios profesionales</item>
+        <item>Ventas</item>
+        <item>Otros</item>
+
+
+    </string-array>
+
+    <string name="title_activity_perfil">Perfil</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_inicio">AppService</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

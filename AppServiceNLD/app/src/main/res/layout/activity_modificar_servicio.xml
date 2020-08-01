@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg"
+    tools:context="lanazirot.com.appservicenld.UpdateService">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/ln"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:contentDescription="" />
+
+            <EditText
+                android:id="@+id/nomedit"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:hint="NOMBRE_SERV"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/descedit"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:hint="DESC_SERV"
+                android:maxLength="500"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/teledit"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:hint="TEL_SERV"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/diredit"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:hint="DIR_SERV"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <Spinner
+                android:id="@+id/modspin"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@color/colorAccent"
+                android:entries="@array/categorias"
+                android:spinnerMode="dialog"
+                android:textAlignment="center"></Spinner>
+
+
+
+            <RelativeLayout
+                android:paddingTop="50px"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_weight="0.74">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="39dp"
+                    app:cardBackgroundColor="#805e0f8c"
+                    app:cardCornerRadius="28dp">
+
+
+                    <TextView
+                        android:id="@+id/okay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Aceptar"
+                        android:textColor="#fff"
+                        android:textSize="20dp" />
+
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

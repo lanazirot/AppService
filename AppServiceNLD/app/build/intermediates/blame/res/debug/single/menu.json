@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\build\\intermediates\\res\\merged\\debug\\menu\\inicio.xml",
+        "source": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\src\\main\\res\\menu\\inicio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_inicio_drawer.xml",
+        "source": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\src\\main\\res\\menu\\activity_inicio_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\build\\intermediates\\res\\merged\\debug\\menu\\perfil.xml",
+        "source": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\src\\main\\res\\menu\\perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_perfil_drawer.xml",
+        "source": "C:\\Users\\Alan\\AndroidStudioProjects\\AppServiceNLD\\app\\src\\main\\res\\menu\\activity_perfil_drawer.xml"
+    }
+]

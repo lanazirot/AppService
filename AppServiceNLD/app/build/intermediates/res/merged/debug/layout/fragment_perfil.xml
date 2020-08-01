@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="lanazirot.com.appservicenld.Perfil">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bcg"
+        android:padding="15dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/perfil"
+            app:civ_border_color="@color/colorAccent"
+            app:civ_border_width="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/pp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/correoPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="CORREO"
+                android:textColor="#fff"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/nombreperfil"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center"
+                android:text="NOMBRE"
+                android:textColor="#fff"
+                android:textSize="34dp" />
+
+            <TextView
+                android:id="@+id/ocupacionPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="OCUPACION"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/servicioPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center"
+                android:text="SERVICIO PRINCIPAL"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/tipousuarioPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:gravity="center"
+                android:text="TIPO DE USUARIO"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="39dp"
+            app:cardBackgroundColor="#805e0f8c"
+            app:cardCornerRadius="28dp">
+
+
+            <TextView
+                android:id="@+id/ownservices"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Mis servicios"
+                android:textColor="#fff"
+                android:textSize="20dp" />
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
